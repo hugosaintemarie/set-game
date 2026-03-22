@@ -4,7 +4,7 @@ aside {
     left: 0;
     width: 320px;
     height: calc(100% - 64px);
-    background-color: white;
+    background-color: light-dark(white, #1d1d1d);
     box-shadow: 4px 0 8px rgba(0,0,0,.05);
     display: flex;
     flex-flow: column wrap;
@@ -51,7 +51,7 @@ aside {
             height: 174px;
             width: 132px;
             margin: 0 auto;
-            background-color: #f6f6f6;
+            background-color: light-dark(#f6f6f6, #121212);
             border-radius: 8px;
             margin-top: 32px;
 
