@@ -24,7 +24,7 @@ export default {
         
         $(document).on('click', '.controls .help', () => {
             if ($('.tutorial').is(':not(.hidden)')) return;
-            game.pause(false);
+            game.pause();
             tutorial.show();
         });
         
