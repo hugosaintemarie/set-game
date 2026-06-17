@@ -233,7 +233,7 @@ export default {
                             </div>
                         </div>
                     </div>
-                    <span>Different color, different shape,<br>same number, different filling.</span>
+                    <span>Different color, same shape,<br>same number, different filling.</span>
                 </div>
                 <div class="box valid">
                     <div class="row">
