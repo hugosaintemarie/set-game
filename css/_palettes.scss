@@ -2,7 +2,7 @@
     position: fixed;
     top: 92px;
     right: 160px;
-    background-color: white;
+    background-color: light-dark(white, #1d1d1d);
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0,0,0,.1);
     width: 288px;
@@ -73,7 +73,7 @@
             &.selected {
                 color: var(--color-primary);
                 font-weight: bold;
-                background-color: hsl(300, 20%, 95%);
+                background-color: light-dark(hsl(300, 20%, 95%), #121212);
                 
                 span {
                     &::after {

@@ -13,7 +13,7 @@ main {
 
     section {
         position: relative;
-        background-color: white;
+        background-color: light-dark(white, #121212);
         border-radius: 8px;
         padding: 40px 32px 240px 32px;
         box-shadow: 0 4px 8px rgba(0,0,0,.05);
@@ -62,7 +62,7 @@ main {
                     text-align: center;
                     padding: 32px 24px;
                     box-shadow: 0 0 8px rgba(0,0,0,.1);
-                    background-color: white;
+                    background-color: light-dark(white, #1d1d1d);
                     transform-style: preserve-3d;
                     backface-visibility: hidden;
                     transition: transform .2s ease;

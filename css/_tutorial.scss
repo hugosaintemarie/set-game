@@ -9,7 +9,6 @@
     // align-items: center;
     z-index: 200;
     padding: 20px 0 32px 0;
-    background-color: rgba(0,0,0,.5);
     transition: opacity .5s ease;
     overflow: auto;
     touch-action: initial;
@@ -29,7 +28,7 @@
     }
     
     .content {
-        background-color: white;
+        background-color: light-dark(white, #121212);
         width: 620px;
         max-width: calc(100% - 32px);
         padding: 32px 32px 24px 32px;
@@ -97,7 +96,7 @@
             position: relative;
             padding: 16px;
             border-radius: 8px;
-            background-color: #f6f3f3;
+            background-color: light-dark(#f6f3f3, black);
 
             &::after {
                 font-family: 'Font Awesome 5 Free';
